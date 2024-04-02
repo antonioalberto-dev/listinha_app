@@ -1,5 +1,4 @@
 part of 'themes.dart';
-parf of 'custom_color.g.dart';
 
 
 const _lightColorScheme = ColorScheme(
