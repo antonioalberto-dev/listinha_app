@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:listinha/src/home/widgets/custom_drawer.dart';
 import 'package:listinha/src/home/widgets/user_image_button.dart';
 
@@ -23,7 +24,9 @@ class _HomePageState extends State<HomePage> {
       floatingActionButton: FloatingActionButton.extended(
         label: const Text('Nova Atividade'),
         icon: const Icon(Icons.edit_note_rounded),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.of(context).pushNamed('./edit');
+        },
       ),
       body: Center(
         child: Padding(
