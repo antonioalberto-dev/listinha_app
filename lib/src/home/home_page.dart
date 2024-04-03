@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_modular/flutter_modular.dart';
 import 'package:listinha/src/home/widgets/custom_drawer.dart';
 import 'package:listinha/src/home/widgets/user_image_button.dart';
 
