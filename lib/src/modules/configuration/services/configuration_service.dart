@@ -1,4 +1,4 @@
-import 'package:listinha/src/shared/services/realm/models/configuration_model.dart';
+import 'package:listinha/src/shared/services/realm/models/configuration/configuration_model.dart';
 import 'package:realm/realm.dart';
 
 abstract class ConfigurationService {
