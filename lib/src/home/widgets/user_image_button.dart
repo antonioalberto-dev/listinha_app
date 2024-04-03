@@ -12,11 +12,12 @@ class UserImageButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
     return Padding(
       padding: padding ?? const EdgeInsets.all(8),
       child: CircleAvatar(
-        backgroundColor: Theme.of(context).primaryColor,
-        foregroundColor: Colors.white,
+        backgroundColor: theme.colorScheme.primary,
+        foregroundColor: theme.colorScheme.onPrimary,
         child:
             name != null ? Text(name ?? '') : const Icon(Icons.person_outlined),
       ),
