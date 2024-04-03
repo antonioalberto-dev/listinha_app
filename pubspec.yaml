@@ -16,6 +16,7 @@ dependencies:
   realm: ^2.0.0
   dynamic_color: ^1.7.0
   google_fonts: 6.1.0
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:listinha/src/home/widgets/custom_drawer.dart';
-import 'package:listinha/src/home/widgets/user_image_button.dart';
+import 'package:listinha/src/modules/home/widgets/custom_drawer.dart';
+import 'package:listinha/src/modules/home/widgets/user_image_button.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
