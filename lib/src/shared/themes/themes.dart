@@ -15,6 +15,8 @@ final lightTheme = ThemeData(
     titleLarge: GoogleFonts.poppins(),
     labelLarge: GoogleFonts.poppins(fontSize: 12),
     bodyLarge: GoogleFonts.poppins(fontSize: 16),
+    bodyMedium: GoogleFonts.poppins(fontSize: 12),
+    bodySmall: GoogleFonts.poppins(fontSize: 10, fontWeight: FontWeight.w400),
   ),
   appBarTheme: AppBarTheme(
     centerTitle: true,
