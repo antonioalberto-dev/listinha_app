@@ -48,10 +48,11 @@ class _ConfigurationPageState extends State<ConfigurationPage> {
               onChanged: appStore.changeThemeMode,
             ),
             RadioListTile(
-                value: ThemeMode.dark,
-                groupValue: appStore.themeMode.value,
-                title: const Text('Dark'),
-                onChanged: appStore.changeThemeMode),
+              value: ThemeMode.dark,
+              groupValue: appStore.themeMode.value,
+              title: const Text('Dark'),
+              onChanged: appStore.changeThemeMode,
+            ),
             const SizedBox(height: 20),
             Text(
               'Controle de dados',
